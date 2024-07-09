@@ -293,3 +293,32 @@ h4 {
 
 
 /* services section end  */
+
+/* Footer Section Start */
+
+footer {
+  background-color: #1d003a;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 30px 20px 20px 20px;
+
+}
+
+.h4 {
+  color: #e8e3e2;
+}
+
+.ii {
+  color: #a29cbc;
+  margin-top: 70px;
+}
+
+
+.webicon{
+  color: white;
+}
+
+/* Footer Section End  */
