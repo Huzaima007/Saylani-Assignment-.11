@@ -410,3 +410,67 @@ nav {
 
 
 /* Footer Section End  */
+
+/* Information Section Start */
+.website-design-section {
+  background-color: #f7eeff;
+}
+
+.Local-SEO-section {
+  background-color: #f7eeff;
+}
+
+.Social-Media-section {
+  background-color: #f7eeff;
+}
+
+.hw {
+  height: auto;
+  width: 100%;
+}
+
+.quote {
+  color: white;
+  background-color: #8919f9;
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+}
+
+h2 {
+  color: #7317cf;
+}
+
+.we p {
+  font-weight: bold;
+}
+
+
+
+/* Information Section End */
+ /* Card Section Start  */
+
+.card {
+  border: none;
+  box-shadow: rgba(237, 222, 251, 255) 0px 10px 15px -3px, rgba(237, 222, 251, 255) 0px 4px 6px -2px;
+}
+
+/* Card Section End  */
+
+/* Accordion Section Start  */
+
+.accordion-body p {
+  color: black;
+}
+
+.bg {
+  background-color: #f7eeff;
+}
+
+/* Accordion Section End  */
+
+
+
+
+
+
