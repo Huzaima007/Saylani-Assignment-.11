@@ -408,13 +408,19 @@ nav {
   padding: 150px 90px 90px 90px;
 }
 
+.h2{
+  color: white;
+}
 
 /* Footer Section End  */
 
 /* Information Section Start */
+
+
 .website-design-section {
   background-color: #f7eeff;
 }
+
 
 .Local-SEO-section {
   background-color: #f7eeff;
@@ -423,6 +429,7 @@ nav {
 .Social-Media-section {
   background-color: #f7eeff;
 }
+
 
 .hw {
   height: auto;
