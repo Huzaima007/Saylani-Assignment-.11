@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1174px) {
+  footer .contact-form {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
 
   .container,
@@ -26,7 +32,8 @@
   .second-section .dropdown-menu {
     border: 2px solid transparent;
     padding: 0px 10px;
-}
+  }
+
   .second-section .navbar-nav {
     padding: 0px 18px;
   }
@@ -81,6 +88,12 @@
   .content {
     padding-top: 120px;
   }
+
+  footer {
+    padding: 0 60px;
+  }
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -92,5 +105,13 @@
 
   .card .card-body {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+
+  footer {
+    padding: 0 30px;
   }
 }
