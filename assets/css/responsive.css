@@ -1,24 +1,49 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
+
+  .container,
+  .container-sm {
+    max-width: none;
+  }
+
   .top-navbar {
     display: none;
   }
 
+  .second-section .fa-solid {
+    color: #fff;
+  }
+
+  .second-section ul li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .second-section .dropdown-menu li {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .second-section .dropdown-menu {
+    border: 2px solid transparent;
+    padding: 0px 10px;
+}
+  .second-section .navbar-nav {
+    padding: 0px 18px;
+  }
+
+  .second-section .navbar-collapse {
+    background: #fff;
+    margin-top: 15px;
+  }
+
+
+  .second-section ul .link:hover {
+    padding: 10px;
+  }
+
+
   .second-section {
-    background: #7317cf;
-  }
-
-  .second-section .navbar-row {
-    display: none;
-  }
-
-  .second-section .mobile-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 15px 15px 15px;
-  }
-
-  .second-section .mobile-nav img {
-    width: 50%;
+    background: rebeccapurple;
   }
 
   .second-section .mobile-nav div i {
@@ -55,5 +80,17 @@
 
   .content {
     padding-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .card .card-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card .card-body {
+    text-align: center;
   }
 }
