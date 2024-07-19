@@ -63,9 +63,12 @@ body {
   background-size: cover;
 }
 
-.second-section .mobile-nav {
-  display: none;
+.second-section .navbar {
+  padding-top: 18px;
+  background: transparent;
 }
+
+
 
 .second-section .row {
   padding-top: 35px;
@@ -74,73 +77,77 @@ body {
   display: flex;
 }
 
-.second-section .row img {
+.second-section img {
   max-width: 10rem;
-  margin-left: 130px;
 }
 
-/* Column Widths */
-.second-section .row .col-4 {
-  width: 33.33%;
-}
 
-.second-section .row .col-8 {
-  width: 66.66%;
-  display: flex;
-}
+
 
 /* Navigation List */
-.second-section .row .col-8 ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding: 0 90px;
-  margin: 0;
-  font-size: 16px;
+
+.second-section .navbar-nav {
+  margin: auto;
 }
 
-.second-section .row .col-8 ul li {
+.second-section .navbar-nav .dropdown-toggle {
+  transition: none !important;
+}
+
+.second-section ul li {
   display: inline;
-  padding: 15px;
-  font-size: 22px;
+  padding: 0 20px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   height: fit-content;
 }
 
-.second-section .row .col-8 ul li:hover {
+.second-section ul .link:hover {
   background-color: #620fb6;
-  border-radius: 25px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
-/* Link Styles */
-.second-section .row .col-8 ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-.second-section .row .col-8 ul li:hover a {
+.second-section ul .link a:hover,
+.second-section ul .link:hover {
   color: #fff;
 }
 
+.second-section .dropdown-menu {
+  border: 2px solid #620fb6;
+  padding: 0px 10px;
+}
+
+.second-section .dropdown-menu li {
+  text-align: center;
+  padding: 0 !important;
+  display: block;
+}
+
+
+
+
+
 /* Proposal Button Styles */
-.second-section .row .col-8 .proposal {
+.second-section .proposal {
   color: #fff;
   background-color: #ffa300;
   border-radius: 25px;
 }
 
-.second-section .row .col-8 .proposal a {
+.second-section .proposal a {
   color: #fff;
   text-decoration: none;
 }
 
-.second-section .row .col-8 .proposal:hover {
+.second-section .proposal:hover {
   background-color: #620fb6;
 }
 
 /* home content */
+
+
 
 .second-section .content {
   margin: 15% 0px;
@@ -301,6 +308,22 @@ footer {
   padding: 130px 150px;
 }
 
+
+
+footer .col-md-6 p,
+footer .col-md-6 a {
+  color: #bbb1c1;
+  font-size: 16px;
+}
+
+footer .col-md-6 a {
+  text-decoration: none;
+}
+
+footer .col-md-6 ul li {
+  margin-bottom: 10px;
+}
+
 nav {
   background-color: black;
   color: white;
@@ -416,9 +439,7 @@ nav {
 /* Footer Section End  */
 
 
-
 /* Information Section Start */
-
 
 .website-design-section {
   background-color: #f7eeff;
@@ -455,14 +476,43 @@ h2 {
   font-weight: bold;
 }
 
-
-
 /* Information Section End */
+
 /* Card Section Start  */
 
 .card {
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
   border: none;
   box-shadow: rgba(237, 222, 251, 255) 0px 10px 15px -3px, rgba(237, 222, 251, 255) 0px 4px 6px -2px;
+}
+
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.card-img img {
+  transition: transform 0.3s ease-in-out;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-img img:hover {
+  transform: scale(1.2);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  flex: 2;
 }
 
 /* Card Section End  */
